@@ -15,7 +15,7 @@ Utils.ipynb: notebook containing multiple functions we needed to run before trai
 FSDK50 which contains:
 -	FSDK50k.dev_audio: folder containing all images for train and validation in original dataset split (needs to be downloaded on fsdk50 website)
 -	FSDK50k.eval_audio: folder containing all images for test set in original dataset split (needs to be downloaded on fsdk50 website)
--	FSDK50k.ground_truth: folder containing csvs for train/test/validation along with labels for all inputs in dev and eval audio. (only contains slim dataset)
+-	FSDK50k.ground_truth: folder containing csvs for train/test/validation along with labels for all inputs in dev and eval audio.
 -	dataset_slim.csv: csv containing all input audio and where they can be found in the original dataset for our custom smaller dataset 
 	-	10500 entries in total
 	-	5 classes
@@ -40,8 +40,8 @@ Output folder containing the performance metrics and saved models for previous t
 	-	Normalization
 	-	lr = 0.000005
 -	19-01-2022_21:28:23
-	-	Epochs = 100 
-	-	21-01-2022_13:24:35
+	-	Previous configuration trained on 100 epochs
+-   21-01-2022_13:24:35
 	-	Trained on small instead of tiny pretrained model
 
 

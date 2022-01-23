@@ -41,7 +41,7 @@ Output folder containing the performance metrics and saved models for previous t
 	-	lr = 0.000005
 -	19-01-2022_21:28:23
 	-	Previous configuration trained on 100 epochs
--   	21-01-2022_13:24:35
+-   21-01-2022_13:24:35
 	-	Trained on small instead of tiny pretrained model
 -	Full_noOver_16batch_NoAugment
 	-	Epochs = 25

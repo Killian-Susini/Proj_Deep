@@ -41,7 +41,31 @@ Output folder containing the performance metrics and saved models for previous t
 	-	lr = 0.000005
 -	19-01-2022_21:28:23
 	-	Previous configuration trained on 100 epochs
--   21-01-2022_13:24:35
+-   	21-01-2022_13:24:35
 	-	Trained on small instead of tiny pretrained model
-
+-	Full_noOver_16batch_NoAugment
+	-	Epochs = 25
+	-	Same as below but no data augment
+-	Full_noOver_16batch_Best
+	-	Epochs = 15
+	-	best model we trained
+	-	batch_size=16
+	-	lr=0.00005
+	-	use and retrain a pretrained tiny ViT model
+-	100EpochNoPretrainSmallDataset20-01-2022_18_20_56
+	-	Epochs = 100
+	-	batch_size=8
+	-	lr=0.0005
+	-	Fully trained From Scratch
+-	100_0008_Vit_pt_LastOnly
+	-	Epochs = 100 
+	-	batch_size=8
+	-	lr=0.0008
+	-	only trained the last layer, uses a tiny pretrained ViT model
+-	No_Overlap_LastOnly_21-01-2022_21_14_26
+	-	Train the model 
+	-	Epochs = 100 
+	-	batch_size=8
+	-	lr=0.0005
+	-	Same as above, but also do not have overlaping patches (faster to train)
 
